@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AstroVital AI – NASA Astronaut Health Monitoring Platform | Space Apps 2026</title>
+  
+  <meta name="description" content="Intelligent astronaut health monitoring and AI-powered medical assistance for long-duration deep-space exploration to Mars. NASA Space Apps Challenge 2026.">
+  <meta name="theme-color" content="#080D24">
+
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2362DDF5' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='3'/><circle cx='19' cy='5' r='2'/><circle cx='5' cy='19' r='2'/><path d='M10.4 21.9a10 10 0 0 0 9.94-16.3'/><path d='M13.6 2.1a10 10 0 0 0-9.94 16.3'/></svg>">
+
+  <!-- Official AstroVital Design System -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Background Dynamic Space Canvas -->
+  <canvas id="starfield-canvas"></canvas>
+
+  <!-- Cosmic Ambient Glow & Scanline Lighting -->
+  <div class="space-ambience"></div>
+
+  <!-- Primary Application Root Container -->
+  <div id="app-root">
+    <!-- Navbar Container -->
+    <header id="navbar-root"></header>
+
+    <!-- Deep-Space Offline / DTN Reconnection Banner Container -->
+    <div id="offline-banner-root"></div>
+
+    <!-- Active View Dynamic Mount Target -->
+    <main id="view-container" style="flex: 1;"></main>
+  </div>
+
+  <!-- CORE SCRIPTS & MODULES -->
+  <script src="js/icons.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/state.js"></script>
+
+  <!-- COMPONENTS -->
+  <script src="js/components/AudioFX.js"></script>
+  <script src="js/components/Starfield.js"></script>
+  <script src="js/components/EcgMonitor.js"></script>
+  <script src="js/components/Navbar.js"></script>
+  <script src="js/components/OfflineBanner.js"></script>
+
+  <!-- VIEWS -->
+  <script src="js/views/LandingView.js"></script>
+  <script src="js/views/AstronautDashboardView.js"></script>
+  <script src="js/views/AIAssistantView.js"></script>
+  <script src="js/views/CrewDashboardView.js"></script>
+  <script src="js/views/EarthMedicalView.js"></script>
+  <script src="js/views/CameraAnalysisView.js"></script>
+  <script src="js/views/AboutView.js"></script>
+
+  <!-- MAIN APP ENTRY -->
+  <script src="js/app.js"></script>
+</body>
+</html>
